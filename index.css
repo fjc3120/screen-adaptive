@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.streamer {
+    position: absolute;
+    display: block;
+  }
+.streamer:nth-child(1) {
+top: 0;
+left: 0;
+width: 50%;
+height: 2px;
+background: linear-gradient(90deg, transparent, #03f2ff);
+animation: span1 4s linear infinite;
+}
+
+/* 从上到下 */
+.streamer:nth-child(2) {
+top: -100%;
+right: 0;
+width: 2px;
+height: 50%;
+background: linear-gradient(180deg, transparent, #03f2ff);
+animation: span2 4s linear infinite;
+animation-delay: 1s;
+}
+
+/* 从右到左 */
+.streamer:nth-child(3) {
+right: -100%;
+bottom: 0;
+width: 50%;
+height: 2px;
+background: linear-gradient(270deg, transparent, #03f2ff);
+animation: span3 4s linear infinite;
+animation-delay: 2s;
+}
+
+/* 从下到上 */
+.streamer:nth-child(4) {
+bottom: -100%;
+left: 0;
+width: 2px;
+height: 50%;
+background: linear-gradient(360deg, transparent, #03f2ff);
+animation: span4 4s linear infinite;
+animation-delay: 3s;
+}
+@-webkit-keyframes span1 {
+0% {
+    left: -100%;
+}
+50%,
+100% {
+    left: 100%;
+}
+}
+@-webkit-keyframes span2 {
+0% {
+    top: -100%;
+}
+50%,
+100% {
+    top: 100%;
+}
+}
+@-webkit-keyframes span3 {
+0% {
+    right: -100%;
+}
+50%,
+100% {
+    right: 100%;
+}
+}
+@-webkit-keyframes span4 {
+0% {
+    bottom: -100%;
+}
+50%,
+100% {
+    bottom: 100%;
+}
+}
+@keyframes span1 {
+0% {
+    left: -100%;
+}
+50%,
+100% {
+    left: 100%;
+}
+}
+@keyframes span2 {
+0% {
+    top: -100%;
+}
+50%,
+100% {
+    top: 100%;
+}
+}
+@keyframes span3 {
+0% {
+    right: -100%;
+}
+50%,
+100% {
+    right: 100%;
+}
+}
+@keyframes span4 {
+0% {
+    bottom: -100%;
+}
+50%,
+100% {
+    bottom: 100%;
+}
+}
