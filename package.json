@@ -1,6 +1,6 @@
 {
   "name": "screen-adaptive",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "流光特效组件",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/fjc3120/screen-adaptive#readme",
   "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   }
 }

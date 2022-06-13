@@ -7,6 +7,9 @@
 - css中，设置边框流光的本层dom，添加`position: relative; overflow: hidden;`
 - 边框流光特效会在本层dom外部发射滚动
 
+***1.0.3版本***
+- 降低react版本
+
 ***1.0.2版本***
 - 改版
 
